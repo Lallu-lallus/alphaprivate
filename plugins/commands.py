@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/ccc3a1dfc540f9b7b3059.jpg",
+    "https://telegra.ph/file/41ec245f493c646823251.jpg",
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
